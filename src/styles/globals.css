@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  scroll-margin-top: 85px;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --maxWidth: 1300px;
+}
+
+[data-theme="dark"] {
+  --maxWidth: 1300px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: var(--maxWidth);
+}
+
+.ant-drawer-header {
+  display: none !important;
+}

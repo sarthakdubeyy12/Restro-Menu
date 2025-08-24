@@ -1,0 +1,37 @@
+.headerContainer {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainerOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.headerButtonsContainer {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .headerButtonsContainer {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menuIcon {
+    display: none;
+  }
+}

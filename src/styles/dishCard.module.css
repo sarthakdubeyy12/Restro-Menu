@@ -1,0 +1,60 @@
+.card {
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.bestSellerTag {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.bodyCard h3 {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.bodyCard .pricesContainer {
+  margin-bottom: 0.8rem;
+}
+
+.bodyCard .pricesContainer div {
+  margin: 0rem 0rem;
+}
+
+.bodyCard .ingredients {
+  font-size: 16px;
+  margin: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.bodyCard div {
+  font-size: 16px;
+}
+
+.bodyCard .detailsButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bodyCard .detailsButton svg {
+  animation: rightArrowButton 1s ease infinite;
+}
+
+@keyframes rightArrowButton {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
+}

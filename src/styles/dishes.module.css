@@ -1,0 +1,26 @@
+.sectionContainer {
+  margin-bottom: 3rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  opacity: 0;
+}
+
+@media (min-width: 640px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

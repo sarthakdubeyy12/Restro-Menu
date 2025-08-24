@@ -1,0 +1,14 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footerLink div {
+  margin-bottom: 0;
+}
+
+.footerLink div:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
